@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.so
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+
+# --- IDE files ---
+.idea/
+.vscode/
+*.iml
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Local configs ---
+.env
+*.sqlite3
+
+# --- Migrations (если ты их не хочешь коммитить пока) ---
+alembic/
+migrations/
+
+# --- Byte-compiled junk ---
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# --- Coverage / testing ---
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
